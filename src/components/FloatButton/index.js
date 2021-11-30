@@ -39,7 +39,7 @@ const StyledMenu = withStyles({
   />
 ));
 
-function FloatButton() {
+export function FloatButton() {
   const [anchorEl, setAnchorEl] = useState(null);
   const [apps, setApps] = useState([]);
   const menuPathname = window.location.pathname;
@@ -143,5 +143,3 @@ function FloatButton() {
     </div>
   );
 }
-
-export default FloatButton;

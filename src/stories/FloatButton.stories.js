@@ -1,8 +1,8 @@
-import FloatButton from "../components/FloatButton";
+import { FloatButton } from "../components/FloatButton";
 
 export default {
   title: "Components/FloatButton",
   component: FloatButton,
 };
 
-export const Menu = () => <FloatButton />;
+export const FloatMenu = () => <FloatButton />;
