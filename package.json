@@ -4,16 +4,24 @@
   "license": "MIT",
   "main": "dist/index.js",
   "private": false,
-  "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-icons": "^4.3.1"
-  },
   "scripts": {
     "start": "start-storybook -p 6006 -s public",
     "build": "BABEL_ENV=production babel src -d dist",
     "eject": "react-scripts eject",
     "build:storybook": "build-storybook -s public"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@material-ui/core": "^4.12.3",
+    "@storybook/addon-actions": "^6.3.7",
+    "@storybook/addon-essentials": "^6.3.7",
+    "@storybook/addon-links": "^6.3.7",
+    "@storybook/node-logger": "^6.3.7",
+    "@storybook/preset-create-react-app": "^3.2.0",
+    "@storybook/react": "^6.3.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1"
   },
   "eslintConfig": {
     "extends": [
@@ -42,16 +50,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.16.0",
-    "@material-ui/core": "^4.12.3",
-    "@storybook/addon-actions": "^6.3.7",
-    "@storybook/addon-essentials": "^6.3.7",
-    "@storybook/addon-links": "^6.3.7",
-    "@storybook/node-logger": "^6.3.7",
-    "@storybook/preset-create-react-app": "^3.2.0",
-    "@storybook/react": "^6.3.7"
   },
   "babel": {
     "presets": [
