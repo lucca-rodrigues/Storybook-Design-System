@@ -39,11 +39,11 @@ const StyledMenu = withStyles({
   />
 ));
 
-export function FloatButton() {
+export function FloatButton(userId = 1) {
   const [anchorEl, setAnchorEl] = useState(null);
   const [apps, setApps] = useState([]);
-  const menuPathname = window.location.pathname;
-  const userId = menuPathname.substring(menuPathname.lastIndexOf("/") + 1);
+  // const menuPathname = window.location.pathname;
+  // const userId = menuPathname.substring(menuPathname.lastIndexOf("/") + 1);
 
   const InitialApps = [
     { name: "Loja de Apps", icon: Eduzz, url: "https://store.eduzz.com" },
