@@ -1,0 +1,74 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+		'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+		'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+#float-button {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+#float-button button {
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+	border: 1px solid #ffcd33;
+	background-color: #0d2772;
+	z-index: 1500;
+}
+
+#float-button button .MuiIconButton-label img {
+	transition: all 0.3s ease-in-out;
+}
+
+#float-button button .MuiIconButton-label img:hover {
+	transform: scale(1.1);
+}
+
+#float-button button .MuiIconButton-label svg {
+	color: #ffcd33;
+	font-size: 29px;
+	transition: all 0.3s ease-in-out;
+}
+
+#float-button button .MuiIconButton-label svg:hover {
+	transform: scale(1.1);
+}
+
+.btn-apps {
+	border-radius: 0 !important;
+}
+
+.btn-apps .MuiButton-label {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 45px 1fr;
+	justify-content: center;
+	align-items: center;
+	width: 74px;
+	height: 74px;
+	color: black;
+}
+
+.btn-apps .MuiButton-label img {
+	margin: 0 auto;
+}
+
+.btn-apps .MuiButton-label p {
+	font-size: 12px;
+	font-weight: 400;
+	text-transform: none;
+	color: #37474f;
+	margin: 0;
+	line-height: 1.2;
+}

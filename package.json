@@ -1,12 +1,13 @@
 {
   "name": "@lucca-rodrigues/float-button",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "license": "MIT",
   "main": "dist/index.js",
   "private": false,
   "scripts": {
     "start": "start-storybook -p 6006 -s public",
     "build": "BABEL_ENV=production babel src -d dist",
+    "build:sb": "babel src --out-dir lib --source-maps inline --copy-files",
     "eject": "react-scripts eject",
     "build:storybook": "build-storybook -s public"
   },
