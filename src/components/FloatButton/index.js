@@ -46,28 +46,28 @@ export function FloatButton(userId = 1) {
   // const userId = menuPathname.substring(menuPathname.lastIndexOf("/") + 1);
 
   const InitialApps = [
-    { name: "Loja de Apps", icon: Eduzz, url: "https://store.eduzz.com" },
-    { name: "Blinket", icon: Blinket, url: "https://app.blinket.com.br" },
+    { name: "App1", icon: Eduzz, url: "https://store.eduzz.com" },
+    { name: "App2", icon: Blinket, url: "https://app.blinket.com.br" },
     {
-      name: "Checkout Sun",
+      name: "App3",
       icon: CheckoutSun,
       url: "https://adminsun.eduzz.com/",
     },
-    { name: "Jobzz", icon: Jobzz, url: "https://app.jobzz.com.br" },
-    { name: "Orbita", icon: Orbita, url: "https://orbita.eduzz.com/" },
-    { name: "Nutror", icon: Nutror, url: "https://my.nutror.com/" },
+    { name: "App4", icon: Jobzz, url: "https://app.jobzz.com.br" },
+    { name: "App5", icon: Orbita, url: "https://orbita.eduzz.com/" },
+    { name: "App6", icon: Nutror, url: "https://my.nutror.com/" },
     {
-      name: "Orbit Pages",
+      name: "App7",
       icon: OrbitPages,
       url: "https://app.orbitpages.com/",
     },
     {
-      name: "Telescope",
+      name: "App8",
       icon: Telescope,
       url: "https://telescope.eduzz.com/",
     },
     {
-      name: "Safe Vídeo",
+      name: "App9",
       icon: SafeVideo,
       url: "https://app.safevideo.com/",
     },
@@ -131,7 +131,7 @@ export function FloatButton(userId = 1) {
                     handleClose();
                   }}
                 >
-                  {icon && <img src={icon} alt={name} />}
+                  {/* {icon && <img src={icon} alt={name} />} */}
 
                   <p>{name}</p>
                 </Button>
