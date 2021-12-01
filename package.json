@@ -1,6 +1,6 @@
 {
   "name": "@lucca-rodrigues/float-button",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "license": "MIT",
   "main": "dist/index.js",
   "private": false,

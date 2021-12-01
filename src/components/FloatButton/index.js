@@ -6,15 +6,15 @@ import { FiX } from "react-icons/fi";
 import "./styles.css";
 
 import {
-  Blinket,
-  CheckoutSun,
-  Eduzz,
-  Jobzz,
-  Nutror,
-  Orbita,
-  OrbitPages,
-  SafeVideo,
-  Telescope,
+  // Blinket,
+  // CheckoutSun,
+  // Eduzz,
+  // Jobzz,
+  // Nutror,
+  // Orbita,
+  // OrbitPages,
+  // SafeVideo,
+  // Telescope,
   LogoEduzz,
 } from "../../assets";
 import { IconButton } from "@material-ui/core";
@@ -46,29 +46,29 @@ export function FloatButton(userId = 1) {
   // const userId = menuPathname.substring(menuPathname.lastIndexOf("/") + 1);
 
   const InitialApps = [
-    { name: "App1", icon: Eduzz, url: "https://store.eduzz.com" },
-    { name: "App2", icon: Blinket, url: "https://app.blinket.com.br" },
+    { name: "App1", icon: "", url: "https://store.eduzz.com" },
+    { name: "App2", icon: "", url: "https://app.blinket.com.br" },
     {
       name: "App3",
-      icon: CheckoutSun,
+      icon: "",
       url: "https://adminsun.eduzz.com/",
     },
-    { name: "App4", icon: Jobzz, url: "https://app.jobzz.com.br" },
-    { name: "App5", icon: Orbita, url: "https://orbita.eduzz.com/" },
-    { name: "App6", icon: Nutror, url: "https://my.nutror.com/" },
+    { name: "App4", icon: "", url: "https://app.jobzz.com.br" },
+    { name: "App5", icon: "", url: "https://orbita.eduzz.com/" },
+    { name: "App6", icon: "", url: "https://my.nutror.com/" },
     {
       name: "App7",
-      icon: OrbitPages,
+      icon: "",
       url: "https://app.orbitpages.com/",
     },
     {
       name: "App8",
-      icon: Telescope,
+      icon: "",
       url: "https://telescope.eduzz.com/",
     },
     {
       name: "App9",
-      icon: SafeVideo,
+      icon: "",
       url: "https://app.safevideo.com/",
     },
   ];
