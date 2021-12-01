@@ -5,18 +5,7 @@ import Menu from "@material-ui/core/Menu";
 import { FiX } from "react-icons/fi";
 import "./styles.css";
 
-import {
-  // Blinket,
-  // CheckoutSun,
-  // Eduzz,
-  // Jobzz,
-  // Nutror,
-  // Orbita,
-  // OrbitPages,
-  // SafeVideo,
-  // Telescope,
-  LogoEduzz,
-} from "../../assets";
+import { LogoEduzz } from "../../assets";
 import { IconButton } from "@material-ui/core";
 
 const StyledMenu = withStyles({
